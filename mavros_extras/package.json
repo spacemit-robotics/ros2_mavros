@@ -1,0 +1,26 @@
+{
+  "system_dependencies": {
+    "required": [
+      {
+        "name": "geographiclib-tools",
+        "check": "test \"$(dpkg-query -W -f='${Status}' geographiclib-tools 2>/dev/null)\" = 'install ok installed'"
+      },
+      {
+        "name": "libasio-dev",
+        "check": "test \"$(dpkg-query -W -f='${Status}' libasio-dev 2>/dev/null)\" = 'install ok installed'"
+      },
+      {
+        "name": "python3-click",
+        "check": "test \"$(dpkg-query -W -f='${Status}' python3-click 2>/dev/null)\" = 'install ok installed'"
+      },
+      {
+        "name": "ros-humble-eigen-stl-containers",
+        "check": "test \"$(dpkg-query -W -f='${Status}' ros-humble-eigen-stl-containers 2>/dev/null)\" = 'install ok installed'"
+      },
+      {
+        "name": "ros-humble-mavlink",
+        "check": "test \"$(dpkg-query -W -f='${Status}' ros-humble-mavlink 2>/dev/null)\" = 'install ok installed'"
+      }
+    ]
+  }
+}
