@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>fastdds_ros_rosidl</name>
+  <version>0.1.0</version>
+  <description>ROSIDL CDR adapters for the Robot SDK Fast DDS core.</description>
+  <maintainer email="robot_team@spacemit.com">robot_team</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>fastdds_ros_core</depend>
+  <depend>fastcdr</depend>
+  <depend>rosidl_typesupport_fastrtps_cpp</depend>
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

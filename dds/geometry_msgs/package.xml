@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>fastdds_ros_geometry_msgs</name>
+  <version>0.1.0</version>
+  <description>Fast DDS adapters for geometry_msgs.</description>
+  <maintainer email="robot_team@spacemit.com">robot_team</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>fastdds_ros_rosidl</depend>
+  <depend>geometry_msgs</depend>
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
